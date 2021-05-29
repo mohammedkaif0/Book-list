@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>MY BOOKLIST</h1><br>
+        <form action="" id="add-data">
+        <input type="text" class="input-class"  id="bookid" name="bookid" placeholder="Enter bookId"></input>
+        <br>
+        <input type="text" class="input-class"  id="title" name="title" placeholder="Enter title"></input>
+        <br>
+        <input type="text" class="input-class"  id="author" name="author" placeholder="Author"></input>
+        <br>
+        <input type="submit" class="btn"  id="addbook"   id="add" value="add"></input>
+        <br>
+        </form><br>
+        <table class="table" id="customers">
+        <thead>
+        <tr>
+        <th>BookId</th> 
+        <th>Title</th>
+        <th>Author</th>
+        <th></th>
+        </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+        </table>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
